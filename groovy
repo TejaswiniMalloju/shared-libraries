@@ -1,5 +1,5 @@
-#!/usr/bin/env groovy
+// vars/helloWorld.groovy
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
+def call() {
+    echo 'Hello, world!'
 }
